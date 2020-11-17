@@ -4,7 +4,7 @@ function Board(props) {
     const drop = event => {
         event.preventDefault()
         const card_id = event.dataTransfer.getData('card_id')
-        console.log(card_id);
+        console.log(event.dataTransfer);
         const card = document.getElementById(card_id)
         card.style.display = "block"
         event.target.appendChild(card)
@@ -12,7 +12,6 @@ function Board(props) {
 
     const dragOver = e => {
         e.preventDefault()
-
     }
     return (
         <div

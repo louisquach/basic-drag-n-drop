@@ -10,7 +10,7 @@ function Card(props) {
     }
 
     const dragOver = e => {
-        e.stopPropagation();
+        // e.stopPropagation();
     }
     return (
         <div
