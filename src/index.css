@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background-color: #3333;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.board {
+  background-color: #333333;
+  height: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 20%;
+  transition: all 1.5s ease-out;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  color: aqua;
+  font-size: 1.8em;
+  padding: 2px 30px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
